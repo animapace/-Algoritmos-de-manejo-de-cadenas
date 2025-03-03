@@ -583,3 +583,31 @@ svg.ui-ux circle{
 .footer-section li:hover a{
     color: #30bae7;
 }
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 200px;
+    margin-left: -500px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: black;
+}
+
+
