@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <title>Cuda - A Owesome Html Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+    <!-- Google Fonts ================================================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font Awesome ================================================== -->
+    <script src="https://kit.fontawesome.com/e768f44d60.js" crossorigin="anonymous"></script><link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--Vendors File ===================================================-->
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!--Resource File ==================================================-->
+    <link rel= "stylesheet"  href= "resources/css/style.css"/>
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+
+<!-- Started Header Menu -->
+
+<header id="home">
+    <nav>
+        <div class="row">
+            <ul class="main-nav">
+                <div class="team-members">
+
+                    <h1>ALGORITMOS DE MANEJO DE CADENAS (STRINGS DE CARACTERES)</h1>
+
+                    <div class="team-member">
+                        <img src="resources/img/team1.jpg" alt="Team Member 1">
+                        <h3>Gabriele Fe' d'Ostiani | 23-0482 </h3>
+        
+                    </div>
+                    <div class="team-member">
+                        <img src="resources/img/team2.jpg" alt="Team Member 2">
+                        <h3>Yahiris Encarnacion | 24-1045 </h3>
+        
+                    </div>
+                    <div class="team-member">
+                        <img src="resources/img/team3.jpg" alt="Team Member 3">
+                        <h3>Aarón Beltre | 24-1033 </h3>
+        
+            </ul>
+        </div>
+    </nav>
+
+    </div>
+</header>
+
+
+   
+    <!--Started Services Section-->
+
+    <section class="service-section js-sticky-section" id= "service">
+        <div class="row">
+            <h2>Que son las cadenas como estructuras de datos en computació?.</h2>
+            <p class= "little-description">Una cadena es un objeto de tipo String cuyo valor es texto. Internamente, el texto se almacena como una colección secuencial de solo lectura de objetos Char. No hay ningún carácter que finalice en NULL al final de una cadena de C#; por lo tanto, la cadena de C# puede contener cualquier número de caracteres nulos insertados ("\0"). La propiedad Length de una cadena representa el número de objetos Char que contiene, no el número de caracteres Unicode. Para obtener acceso a los puntos de código Unicode individuales de una cadena, use el objeto StringInfo.</p>
+        </div>
+        <h3>Aarón Beltre | 24-1033 </h3>
+    </section>
+
+    <!--Ended Services Section-->
+
+
+
+    <!-- Started Team Section here-->
+
+    <section class="team-section" id="team">
+        <div class="row">
+            <h2>Las principales operaciones de manejo de cadenas.</h2>
+            <p class="little-description">
+                Las operaciones más comunes para manipular cadenas en programación incluyen:
+            </p>
+            <ul>
+                <li>
+                    <strong>Concatenación:</strong> Unir dos o más cadenas usando el operador <code>+</code>.
+                    <br><code>resultado = "Hola" + " Mundo"  # "Hola Mundo"</code>
+                </li>
+                <li>
+                    <strong>Repetición:</strong> Repetir una cadena un número específico de veces con <code>*</code>.
+                    <br><code>resultado = "Hola " * 3  # "Hola Hola Hola "</code>
+                </li>
+                <li>
+                    <strong>Indexación:</strong> Acceder a un carácter específico usando <code>[]</code>.
+                    <br><code>cadena = "Python"; letra = cadena[0]  # 'P'</code>
+                </li>
+                <li>
+                    <strong>Subcadenas (Slicing):</strong> Extraer una parte de la cadena con <code>[inicio:fin:paso]</code>.
+                    <br><code>subcadena = "Python"[0:4]  # 'Pyth'</code>
+                </li>
+                <li>
+                    <strong>Longitud:</strong> Obtener el número de caracteres en una cadena con <code>len()</code>.
+                    <br><code>longitud = len("Python")  # 6</code>
+                </li>
+                <li>
+                    <strong>Conversión a mayúsculas y minúsculas:</strong> Convertir el texto con <code>.upper()</code>, <code>.lower()</code> o <code>.capitalize()</code>.
+                    <br><code>texto = "python".upper()  # "PYTHON"</code>
+                </li>
+                <li>
+                    <strong>Reemplazo de texto:</strong> Sustituir partes de una cadena con <code>.replace()</code>.
+                    <br><code>texto = "Hola Mundo".replace("Mundo", "Python")  # "Hola Python"</code>
+                </li>
+                <li>
+                    <strong>División de cadenas:</strong> Separar una cadena en una lista de elementos con <code>.split()</code>.
+                    <br><code>lista = "Python,Java,C++".split(",")  # ['Python', 'Java', 'C++']</code>
+                </li>
+                <li>
+                    <strong>Unión de cadenas:</strong> Unir elementos de una lista en una sola cadena con <code>.join()</code>.
+                    <br><code>texto = " - ".join(["Python", "Java", "C++"])  # "Python - Java - C++"</code>
+                </li>
+                <li>
+                    <strong>Eliminación de espacios en blanco:</strong> Remover espacios con <code>.strip()</code>, <code>.lstrip()</code> y <code>.rstrip()</code>.
+                    <br><code>texto = "  Hola  ".strip()  # "Hola"</code>
+                </li>
+                <li>
+                    <strong>Verificación de contenido:</strong> Métodos para validar caracteres en la cadena.
+                    <br><code>"12345".isdigit()  # True</code> | <code>"Python".isalpha()  # True</code>
+                </li>
+                <li>
+                    <strong>Búsqueda de subcadenas:</strong> Encontrar texto con <code>.find()</code> y contar ocurrencias con <code>.count()</code>.
+                    <br><code>pos = "Hola Hola Python".find("Hola")  # 0</code>
+                </li>
+                <li>
+                    <strong>Invertir una cadena:</strong> Obtener la cadena en orden inverso con <code>[::-1]</code>.
+                    <br><code>invertido = "Python"[::-1]  # "nohtyP"</code>
+                </li>
+            </ul>
+            <h3>Gabriele Fe' d'Ostiani | 23-0482 </h3>
+        </div>
+    </section>
+    
+
+    <!-- End Team Section here-->
+
+
+    <!-- Started Skill Section here-->
+
+        <section class="skill-section" id="skill">l
+            <section class="team-section" id="team">
+                <div class="row">
+                    <h2>Principales algoritmos empleados para el manejo de cadenas en lenguajes de programación</h2>
+                    <p class="little-description">
+                        A continuación, se presentan algunos de los principales algoritmos utilizados para el manejo de cadenas en diversos lenguajes de programación:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Algoritmo Knuth-Morris-Pratt (KMP):</strong> Este algoritmo busca patrones dentro de una cadena de texto de manera eficiente, evitando comparaciones redundantes al utilizar una tabla de fallos que indica las posiciones a las que se debe retroceder en caso de una discordancia. Es ampliamente implementado en lenguajes como C, C++, Java y Python.
+                        </li>
+                        <li>
+                            <strong>Algoritmo de Boyer-Moore:</strong> Utilizado para la búsqueda eficiente de subcadenas, este algoritmo salta secciones del texto al buscar patrones, basándose en la información obtenida de las comparaciones fallidas. Es común en lenguajes como C, C++, Java y Python.
+                        </li>
+                        <li>
+                            <strong>Algoritmo de Aho-Corasick:</strong> Este algoritmo permite la búsqueda de múltiples patrones simultáneamente dentro de un texto, construyendo un autómata finito que representa todos los patrones. Es utilizado en aplicaciones como sistemas de detección de intrusos y herramientas de búsqueda de texto, y se implementa en lenguajes como C, C++ y Python.
+                        </li>
+                        <li>
+                            <strong>Algoritmo de Ukkonen:</strong> Diseñado para la construcción eficiente de árboles de sufijos en tiempo lineal, este algoritmo es útil en aplicaciones como la búsqueda de patrones y la compresión de datos. Se implementa en lenguajes como C, C++ y Java.
+                        </li>
+                        <li>
+                            <strong>Expresiones regulares (Regex):</strong> Son patrones que describen conjuntos de cadenas y se utilizan para la búsqueda, coincidencia y manipulación de texto. La mayoría de los lenguajes de programación, como Python, JavaScript, Perl, Java, C# y Ruby, ofrecen soporte integrado para expresiones regulares.
+                        </li>
+                        <li>
+                            <strong>Funciones de manejo de cadenas integradas:</strong> Los lenguajes de programación suelen proporcionar funciones integradas para operaciones comunes con cadenas, como concatenación, división, reemplazo y búsqueda de subcadenas. Por ejemplo, Python ofrece métodos como <code>str.join()</code>, <code>str.split()</code> y <code>str.replace()</code>; JavaScript proporciona métodos similares como <code>String.prototype.concat()</code>, <code>String.prototype.split()</code> y <code>String.prototype.replace()</code>; y Java incluye métodos como <code>String.concat()</code>, <code>String.split()</code> y <code>String.replace()</code>.
+                        </li>
+                    </ul>
+                    <h3>Aarón Beltre | 24-1033 </h3>
+                </div>
+            </section>
+            
+        </section>
+
+    <!-- Ended Skill Section here-->
+
+
+    <!-- Started Portfolio Section here-->
+
+        <section class="portfolio-section" id="portfolio">
+            <section class="team-section" id="team">
+                <div class="row">
+                    <h2>Ejemplos de programas que implementan manejo de cadenas</h2>
+                    <p class="little-description">
+                        A continuación, se presentan dos ejemplos de programas en diferentes lenguajes de programación que implementan algoritmos y operaciones comunes para el manejo de cadenas.
+                    </p>
+            
+                    <h3>Ejemplo 1: Búsqueda de un patrón en una cadena (Python - Algoritmo KMP)</h3>
+                    <p>
+                        Este programa implementa el algoritmo Knuth-Morris-Pratt (KMP) en Python para buscar un patrón dentro de una cadena.
+                    </p>
+                    <pre>
+            <code>
+            def build_lps(pattern):
+                lps = [0] * len(pattern)
+                length = 0  
+                i = 1
+            
+                while i < len(pattern):
+                    if pattern[i] == pattern[length]:
+                        length += 1
+                        lps[i] = length
+                        i += 1
+                    else:
+                        if length != 0:
+                            length = lps[length - 1]
+                        else:
+                            lps[i] = 0
+                            i += 1
+                return lps
+            
+            def kmp_search(text, pattern):
+                n = len(text)
+                m = len(pattern)
+                lps = build_lps(pattern)
+            
+                i = j = 0  
+                while i < n:
+                    if pattern[j] == text[i]:
+                        i += 1
+                        j += 1
+            
+                    if j == m:
+                        print(f"Patrón encontrado en la posición {i - j}")
+                        j = lps[j - 1]
+                    elif i < n and pattern[j] != text[i]:
+                        if j != 0:
+                            j = lps[j - 1]
+                        else:
+                            i += 1
+            
+            # Ejemplo de uso
+            texto = "ababcababcabc"
+            patron = "abc"
+            kmp_search(texto, patron)
+            </code>
+                    </pre>
+            
+                    <h3>Ejemplo 2: Inversión de una cadena usando pilas (JavaScript)</h3>
+                    <p>
+                        Este programa invierte una cadena utilizando una estructura de pila en JavaScript.
+                    </p>
+                    <pre>
+            <code>
+            function reverseString(str) {
+                let stack = [];
+                let reversedStr = "";
+            
+                for (let i = 0; i < str.length; i++) {
+                    stack.push(str[i]);
+                }
+            
+                while (stack.length > 0) {
+                    reversedStr += stack.pop();
+                }
+            
+                return reversedStr;
+            }
+            
+            // Ejemplo de uso
+            let cadena = "Hola Mundo";
+            console.log("Cadena original:", cadena);
+            console.log("Cadena invertida:", reverseString(cadena));
+            </code>
+                    </pre>
+                </div>
+                <h3>Yahiris Encarnacion | 24-1045 </h3>
+        </section>
+
+    <!-- Ended Portfolio Section here-->
+
+
+    <!-- Started testimonial Section here-->
+
+        <section class="testimonial-section" id="testimonial">
+            <section class="references-section" id="references">
+                <div class="row">
+                    <h2>Referencias</h2>
+                    <ul>
+                        <li>
+                            Aho, A. V., & Corasick, M. J. (1975). <i>Efficient string matching: An aid to bibliographic search</i>. <i>Communications of the ACM, 18</i>(6), 333-340.
+                        </li>
+                        <li>
+                            Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). <i>Introduction to Algorithms</i> (3ª ed.). MIT Press.
+                        </li>
+                        <li>
+                            Gusfield, D. (1997). <i>Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology</i>. Cambridge University Press.
+                        </li>
+                        <li>
+                            Knuth, D. E., Morris, J. H., & Pratt, V. R. (1977). <i>Fast pattern matching in strings</i>. <i>SIAM Journal on Computing, 6</i>(2), 323-350.
+                        </li>
+                        <li>
+                            Microsoft. (2025). <i>Cadenas: Guía de programación de C#</i>. Recuperado de <a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/strings/">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/strings/</a>
+                        </li>
+                        <li>
+                            Ukkonen, E. (1995). <i>On-line construction of suffix trees</i>. <i>Algorithmica, 14</i>(3), 249-260.
+                        </li>
+                        <li>
+                            Wikipedia. (2025). <i>Algoritmo de búsqueda de cadenas Aho-Corasick</i>. Recuperado de <a href="https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_de_cadenas_Aho-Corasick">https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_de_cadenas_Aho-Corasick</a>
+                        </li>
+                        <li>
+                            Wikipedia. (2025). <i>Algoritmo de Ukkonen</i>. Recuperado de <a href="https://es.wikipedia.org/wiki/Algoritmo_de_Ukkonen">https://es.wikipedia.org/wiki/Algoritmo_de_Ukkonen</a>
+                        </li>
+                    </ul>
+                </div>
+   
+
+        </section>
+
+    <!-- Ended testimonial Section here-->
+
+
+</body>
+</html>
